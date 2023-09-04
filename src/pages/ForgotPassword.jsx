@@ -11,13 +11,13 @@ const ForgotPassword = () => {
   const navigate = useNavigate();
   return (
     <div className="w-[90%] mx-auto lg:w-full flex justify-center mt-[47px]">
-      <div className="relative px-2  flex flex-wrap bg-white w-[875px] rounded-3xl overflow-hidden mb-[20px]">
+      <div className="relative flex flex-wrap bg-white w-[875px] rounded-3xl overflow-hidden mb-[20px]">
         <img
           className="hidden md:block absolute right-0 text-black z-10"
           src="/images/skin-logo.png"
           alt="Logo"
         />
-        <div className="flex w-full flex-col md:w-1/2">
+        <div className="flex w-full flex-col md:w-1/2 px-2">
           <div className="lg:w-[28rem] py-[25px] mx-auto my-auto flex flex-col justify-center md:justify-start md:px-6">
             <p className="text-left text-[34px] font-[400]">
               Forgot your password?
