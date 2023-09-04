@@ -6,6 +6,9 @@ import Login from "./pages/Login";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
 
+import PageNotFount from './pages/PageNotFount';
+
+
 function App() {
   return (
     <div>
