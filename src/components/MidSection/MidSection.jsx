@@ -56,7 +56,7 @@ const MidSection = () => {
             <div className="main">
                 <FontAwesomeIcon className='icon-burger' icon={faBars} onClick={handleToggleSidebar} />
 
-                <nav className={`nav ${isVisible ? 'visible' : 'hidden'}`}>
+                <nav className={`nav ${isVisible ? 'visible' : 'sm:!block hidden'}`}>
                     <ul>
                         <li><a onClick={() => { setActiveTab('academic'); if(window.innerWidth<600){setIsVisible(false)} }} href="#academic">Academic</a></li>
                         <li><a onClick={() => { setActiveTab('creative'); if(window.innerWidth<600){setIsVisible(false)} }} href="#creative">Creative Writing</a></li>
