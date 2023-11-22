@@ -1,0 +1,169 @@
+.sidbarContents {
+    /* margin-top: 21px; */
+    display: flex;
+    background: #EAEAEA;
+    box-shadow: 0px 0px 18.42361px 0px rgba(0, 0, 0, 0.58);
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.card {
+    max-width: 502px;
+    border-radius: 36.384px;
+    background: #202020;
+}
+
+.toper {
+    padding-left: 55px;
+    padding-right: 40px;
+}
+
+.card h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 43.076px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 55px;
+    margin-bottom: 34px;
+}
+
+.HeadContents {
+    display: flex;
+
+}
+
+.date {
+    float: right;
+}
+
+.desc {
+    margin-top: 58px;
+}
+
+.HeadContents h2 {
+    white-space: nowrap;
+    color: #FFF;
+    /* font-family: Inter; */
+    font-size: 20.722px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 4px;
+    margin-bottom: 8px;
+}
+
+.HeadContents p {
+    color: #FFF;
+    /* font-family: Inter; */
+    font-size: 20.722px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.cardFooter {
+    margin-top: 47px;
+}
+
+.tags {
+    display: flex;
+    margin-top: 67px;
+    align-items: center;
+    padding: 0px 26px;
+    padding-bottom: 74px;
+}
+
+.tags h3 {
+    margin-right: 28px;
+    color: #FFF;
+    /* font-family: Inter; */
+    font-size: 24.267px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tags button {
+    border-radius: 8.085px;
+    background: #305F63;
+    padding: 4px 30px;
+    /* margin-right: 3px; */
+    color: #FFF;
+    /* font-family: Inter; */
+    font-size: 18.192px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btns {
+    display: flex;
+    column-gap: 4px;
+}
+
+.vertical-line {
+    border-left: 2px solid #aba4a4;
+    height: 714px;
+    margin-left: 40px;
+    margin-right: 8px;
+}
+
+.pdf img {
+    max-width: 100%;
+    height: auto;
+    image-rendering: -webkit-optimize-contrast;
+    /* WebKit browsers like Chrome and Safari */
+    image-rendering: optimizeQuality;
+    /* Standard */
+    /* height: 714.573px; */
+}
+
+@media (max-width: 1100px) {
+    .sidbarContents {
+        margin-top: 21px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .sidbarContents {
+        flex-direction: column;
+        background: white;
+        box-shadow: none;
+    }
+
+    .vertical-line {
+        height: 0px;
+        margin-top: 10px;
+
+    }
+}
+
+@media (max-width: 910px) {
+    .btns {
+        display: flex;
+        flex-direction: column;
+        row-gap: 6px;
+    }
+}
+
+@media (max-width: 450px) {
+    .toper {
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+    
+    .card h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: 30.076px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-top: 45px;
+        margin-bottom: 34px;
+    }
+}
